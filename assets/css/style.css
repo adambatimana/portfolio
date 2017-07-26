@@ -1,14 +1,41 @@
+/*
+red #EF5350; background-color: rgba(239, 83, 89, .5);
+gray #2D2D2A; background-color: rgba(45, 45, 42, .5);
+dark blue #4F7CAC;
+light blue #6CCFF6;
+black #001011
+*/
 /*.parallax-container {
      height: "your height here";
    }*/
+#nav{
+  margin-bottom: 0;
+}
+#nav .col.l12{
+background-color: rgba(79, 124, 172, .75);
+}
 
+#folioHeader{
+  margin-bottom: 0;
+}
 
+#folioHeader {
+  margin-bottom: 0;
+}
+#aboutMe{
+  margin-bottom: 0;
+
+}
 #socialUl li{
   display: inline;
   width: 50%;
 }
 
-.githubImg, .linkedinImg{
+.githubImg{
   width:25%;
   height: 25%;
+}
+
+#aboutMe {
+text-align: center;
 }
