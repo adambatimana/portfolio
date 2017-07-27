@@ -12,7 +12,7 @@ black #001011
   margin-bottom: 0;
 }
 #nav .col.l12{
-background-color: rgba(79, 124, 172, .75);
+background-color: rgba(0,0, 0, .5);
 }
 
 #folioHeader{
@@ -20,6 +20,12 @@ background-color: rgba(79, 124, 172, .75);
 }
 
 #folioHeader {
+  margin-bottom: 0;
+}
+#folioHeader p{
+  padding-bottom: 2em;
+}
+#folioHeader .s12{
   margin-bottom: 0;
 }
 #aboutMe{
@@ -31,6 +37,9 @@ background-color: rgba(79, 124, 172, .75);
   width: 50%;
 }
 
+#bgimage1{
+  margin-bottom: 0;
+}
 .githubImg{
   width:25%;
   height: 25%;
@@ -38,4 +47,22 @@ background-color: rgba(79, 124, 172, .75);
 
 #aboutMe {
 text-align: center;
+}
+
+#linkSection .right{
+  text-align:center;
+}
+#linkSection .s6{
+  text-align: center;
+}
+.page-footer{
+  background-color: #4F7CAC;
+}
+#folioHeader .profilePic{
+  text-align: center;
+  padding: 5em 12em;
+}
+footer .container .row{
+  padding-bottom: 10em;
+
 }
