@@ -23,7 +23,7 @@ background-color: rgba(0,0, 0, .5);
   margin-bottom: 0;
 }
 #folioHeader p{
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 #folioHeader .s12{
   margin-bottom: 0;
@@ -58,9 +58,15 @@ text-align: center;
 .page-footer{
   background-color: #4F7CAC;
 }
+.nameCard{
+  text-align: center;
+}
+.scrollDown{
+  margin-bottom: 2em;
+}
 #folioHeader .profilePic{
   text-align: center;
-  padding: 5em 12em;
+  padding: 2em 12em;
 }
 footer .container .row{
   padding-bottom: 10em;
