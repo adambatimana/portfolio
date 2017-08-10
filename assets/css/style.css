@@ -4,6 +4,7 @@ gray #2D2D2A; background-color: rgba(45, 45, 42, .5);
 dark blue #4F7CAC;
 light blue #6CCFF6;
 black #001011
+f5cb5c
 */
 
 
@@ -16,7 +17,7 @@ black #001011
 }
 
 #nav .col.l12 {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(45, 48, 71, .75);
 }
 
 #folioHeader {
@@ -67,7 +68,7 @@ black #001011
 }
 
 .page-footer {
-    background-color: #4F7CAC;
+    background-color: #f5cb5c;
 }
 
 .nameCard {
@@ -81,7 +82,7 @@ black #001011
 }
 
 .btn-floating i {
-    color: #6CCFF6;
+    color: #e9b44c;
 }
 
 .btn-floating i:hover {
@@ -89,7 +90,7 @@ black #001011
 }
 
 .btn-floating i:focus {
-    color: #6CCFF6;
+    color: #e9b44c;
 }
 
 .btn-floating {
@@ -98,7 +99,7 @@ black #001011
 }
 
 .btn-floating:hover {
-    background: #6CCFF6;
+    background: #e9b44c;
 }
 
 .btn-floating:focus {
