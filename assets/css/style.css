@@ -17,13 +17,14 @@ background-color: rgba(0,0, 0, .5);
 
 #folioHeader{
   margin-bottom: 0;
+  min-height: 650px;
 }
 
 #folioHeader {
   margin-bottom: 0;
 }
 #folioHeader p{
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 #folioHeader .s12{
   margin-bottom: 0;
@@ -58,9 +59,51 @@ text-align: center;
 .page-footer{
   background-color: #4F7CAC;
 }
+.nameCard{
+  text-align: center;
+  margin-top: 15%;
+  float: none;
+}
+.scrollDown{
+  margin-bottom: 2em;
+}
+.btn-floating i {
+  color: #6CCFF6;
+}
+.btn-floating i:hover{
+  color: white;
+}
+.btn-floating i:focus{
+    color: #6CCFF6;
+}
+.btn-floating{
+  background: transparent;
+  color: white;
+}
+.btn-floating:hover{
+  background: #6CCFF6;
+
+}
+.btn-floating:focus{
+  background: white;
+
+}
+.btn-floating:visited{
+  background: transparent;
+}
+/*.row .col .l6{
+  width: 100%;
+}*/
+.links{
+  margin-top: 15%;
+
+}
+.arrowBtn{
+  margin-bottom: 50px;
+}
 #folioHeader .profilePic{
   text-align: center;
-  padding: 5em 12em;
+  /*padding: 2em 12em;*/
 }
 footer .container .row{
   padding-bottom: 10em;
