@@ -24,6 +24,11 @@ f5cb5c
 
 body{
   font-family: 'Ubuntu', sans-serif;
+  color:#2D3047;
+}
+h1{
+  margin-top: 85px;
+  margin-bottom: 1.5em;
 }
 #nav {
     margin-bottom: 0;
@@ -41,12 +46,9 @@ nav ul li:hover{
   border-bottom: 5px solid #f5cb5c;
   transition: .3s all;
 }
-#folioHeader {
-    margin-bottom: 0;
-}
 
-#folioHeader {
-    margin-bottom: 0;
+#folioHeader{
+  margin-bottom: 0;
 }
 
 #folioHeader p {
@@ -61,7 +63,8 @@ nav ul li:hover{
 }
 
 #aboutMe {
-    margin-bottom: 0;
+    margin-bottom: 5em;
+    height: 750px;
 }
 
 #socialUl li {
@@ -85,7 +88,9 @@ nav ul li:hover{
     width: 25%;
     height: 25%;
 }
-
+.section{
+  padding-bottom: 0;
+}
 #aboutMe {
     text-align: center;
 }
@@ -106,6 +111,10 @@ nav ul li:hover{
     text-align: center;
     margin-top: 5%;
     float: none;
+}
+.nameCard img{
+  width: 70%;
+  padding: 0;
 }
 
 .scrollDown {
@@ -167,7 +176,12 @@ nav .brand-logo {
     text-align: center;
 
 }
-
+#aboutMe p{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 1em;
+}
 footer .container .row {
     padding-bottom: 10em;
 }
