@@ -26,10 +26,39 @@ body{
   font-family: 'Ubuntu', sans-serif;
   color:#2D3047;
 }
+p{
+  line-height: 1.5em;
+
+}
+nav ul a:hover{
+  background: none;
+color:#f5cb5c;
+}
+nav ul li:hover{
+  border-bottom: 5px solid #f5cb5c;
+  transition: .3s all;
+}
+nav .brand-logo {
+    background-image: url(../img/logo1.png);
+    height: 100%;
+    width: 225px;
+    background-size: cover;
+    background-position: center;
+}
+
 h1{
   margin-top: 85px;
   margin-bottom: 1.5em;
 }
+
+footer .container .row {
+    padding-bottom: 10em;
+}
+
+footer p, footer h5, footer a, .page-footer .footer-copyright{
+  color:#2D3047;
+}
+
 #nav {
     margin-bottom: 0;
 }
@@ -37,15 +66,8 @@ h1{
 #nav .col.l12 {
     background-color: rgba(45, 48, 71, .85);
 }
-nav ul a:hover{
-  background: none;
-color:#f5cb5c;
-}
-nav ul li:hover{
 
-  border-bottom: 5px solid #f5cb5c;
-  transition: .3s all;
-}
+
 
 #folioHeader{
   margin-bottom: 0;
@@ -67,10 +89,6 @@ nav ul li:hover{
     height: 750px;
 }
 
-#socialUl li {
-    display: inline;
-    width: 50%;
-}
 
 #bgimage1 {
     margin-bottom: 0;
@@ -84,13 +102,12 @@ nav ul li:hover{
   bottom: 25%;
   left: 15%;
 }
-.githubImg {
-    width: 25%;
-    height: 25%;
-}
+
 .section{
   padding-bottom: 0;
 }
+
+
 #aboutMe {
     text-align: center;
 }
@@ -130,10 +147,6 @@ nav ul li:hover{
 
 }
 
-/*.btn-floating i:focus {
-    color: #e9b44c;
-}*/
-
 .btn-floating {
     background: #f5cb5c;
 }
@@ -149,26 +162,10 @@ nav ul li:hover{
 }
 
 
-/*.row .col .l6{
-  width: 100%;
-}*/
-
-nav .brand-logo {
-    background-image: url(../img/logo1.png);
-    height: 100%;
-    width: 225px;
-    background-size: cover;
-    background-position: center;
-}
-
-.links {
-    margin-top: 10%;
-}
-
 .arrowBtn {
   position: absolute;
   bottom: 5%;
-  left: 45%;
+  left: 46%;
 
 }
 
@@ -181,11 +178,4 @@ nav .brand-logo {
   line-height: 1.5em;
   text-align: left;
   padding: 1em;
-}
-footer .container .row {
-    padding-bottom: 10em;
-}
-
-footer p, footer h5, footer a, .page-footer .footer-copyright{
-  color:#2D3047;
 }
