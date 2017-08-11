@@ -8,21 +8,41 @@ f5cb5c
 */
 
 
-/*.parallax-container {
-     height: "your height here";
-   }*/
+.parallax-container {
+     height:775px;
+   }
 
+   *,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
 #nav {
     margin-bottom: 0;
 }
 
 #nav .col.l12 {
-    background-color: rgba(45, 48, 71, .75);
+    background-color: rgba(45, 48, 71, .85);
 }
+nav ul a:hover{
+  background: none;
+color:#f5cb5c;
+}
+nav ul li:hover{
 
+  border-bottom: 5px solid #f5cb5c;
+  transition: .3s all;
+}
 #folioHeader {
     margin-bottom: 0;
-    /* min-height: 450px; */
 }
 
 #folioHeader {
@@ -31,6 +51,9 @@ f5cb5c
 
 #folioHeader p {
     padding-bottom: 1em;
+}
+#header{
+  text-align: center;
 }
 
 #folioHeader .s12 {
@@ -48,8 +71,16 @@ f5cb5c
 
 #bgimage1 {
     margin-bottom: 0;
+    color: white;
+    position: relative;
 }
-
+#bgimage1 p{
+  font-size: 1.5em;
+  letter-spacing: .15em;
+  position: absolute;
+  bottom: 25%;
+  left: 15%;
+}
 .githubImg {
     width: 25%;
     height: 25%;
@@ -82,32 +113,30 @@ f5cb5c
 }
 
 .btn-floating i {
-    color: #e9b44c;
+    color: white;
 }
 
 .btn-floating i:hover {
-    color: white;
+  color: #e9b44c;
+
 }
 
-.btn-floating i:focus {
+/*.btn-floating i:focus {
     color: #e9b44c;
-}
+}*/
 
 .btn-floating {
-    background: transparent;
-    color: white;
+    background: #f5cb5c;
 }
 
 .btn-floating:hover {
-    background: #e9b44c;
+    background:transparent;
 }
 
-.btn-floating:focus {
-    background: white;
-}
+
 
 .btn-floating:visited {
-    background: transparent;
+    background: #e9b44c;
 }
 
 
@@ -124,18 +153,25 @@ nav .brand-logo {
 }
 
 .links {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .arrowBtn {
-    margin-bottom: 50px;
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+
 }
 
 #folioHeader .profilePic {
     text-align: center;
-    /*padding: 2em 12em;*/
+
 }
 
 footer .container .row {
     padding-bottom: 10em;
+}
+
+footer p, footer h5, footer a, .page-footer .footer-copyright{
+  color:#2D3047;
 }

@@ -11,22 +11,23 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <div class="row" id="nav">
+    <div class="row " id="nav">
         <div class="cols l12">
 
             <div class="navbar-fixed">
 
-                <nav class="col l12">
-                    <div class="nav-wrapper">
+                <nav class="col l12 large">
+                    <div class="nav-wrapper ">
                         <a href="#" class="brand-logo">
                         </a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li><a href="sass.html">ABOUT</a></li>
+                            <li><a href="#aboutMe">ABOUT</a></li>
                             <li><a href="badges.html">PORTFOLIO</a></li>
                             <li><a href="collapsible.html">CONTACT</a></li>
                         </ul>
@@ -37,13 +38,30 @@
         </div>
     </div>
 
-    <div class="row  " id="folioHeader">
+
+
+
+
+    <div class="row parallax-container" id="bgimage1">
+      <p class="flow-text">{ Full Stack Web Developer, Graphic Designer, Photographer }</p class="flow-text">
+        <div class="parallax"><img src="./assets/img/bg1.jpg" alt="cityImage" ></div>
+        <div class="row arrowBtn">
+            <div class="col s12 l12  center-align">
+                <a class="btn-floating btn-large waves-effect waves-light scrollDown" href="#aboutMe"><i class="material-icons">arrow_downward</i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row scrollspy" id="folioHeader about">
+        <div class="col m12 l12 " id="header">
+          <h1>Adam Batimana</h1>
+
+        </div>
+
 
         <div class="col m12 l6">
 
             <div class="col l12 nameCard">
-                <h1>Adam Batimana</h1>
-                <p class="flow-text">{ Full Stack Web Developer, Graphic Designer, Photographer }</p class="flow-text">
                 <img src="http://facetheforce.today/random/300?r=1" alt="Profile Picture" class="circle profilePic responsive-img">
             </div>
 
@@ -74,17 +92,6 @@
             </ul>
         </div>
 
-    </div>
-
-    <div class="row arrowBtn">
-        <div class="col s12 l12  center-align">
-            <a class="btn-floating btn-large waves-effect waves-light scrollDown" href="#aboutMe"><i class="material-icons">arrow_downward</i></a>
-        </div>
-    </div>
-
-
-    <div class="row parallax-container" id="bgimage1">
-        <div class="parallax"><img src="./assets/img/brooklynBridge.jpg" alt="cityImage" class="responsive-img"></div>
     </div>
 
 
@@ -138,15 +145,15 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5>Footer Content</h5>
+                    <p>You can use rows and columns here to organize your footer content.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
+                    <h5 >Links</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">ABOUT</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">PORTFOLIO</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">CONTACT</a></li>
+                        <li><a href="#!">ABOUT</a></li>
+                        <li><a href="#!">PORTFOLIO</a></li>
+                        <li><a href="#!">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
