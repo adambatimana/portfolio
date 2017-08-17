@@ -69,6 +69,7 @@ footer p, footer h5, footer a, .page-footer .footer-copyright{
 
 #linkSection{
   color: #01579b;
+  margin: 5em 0;
 }
 
 #folioHeader{
@@ -181,3 +182,18 @@ footer p, footer h5, footer a, .page-footer .footer-copyright{
   text-align: left;
   padding: 1em;
 }
+
+
+footer .container .row {
+  padding: 0;
+}
+form{
+  margin-top: 2em;
+}
+.input-field label {
+    color: #039be5;
+  }
+  .input-field input[type=text]:focus {
+       border-bottom: 1px solid #039be5;
+       
+     }
