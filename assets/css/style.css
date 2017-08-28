@@ -176,6 +176,20 @@ footer a,
 #folioHeader .profilePic {
     text-align: center;
 }
+#projects #linkSection{
+  margin: 0;
+}
+#projects .section {
+  padding: 0;
+}
+#projects .parallax-container{
+  height: 500px;
+}
+#projects .parallax-container .gd{
+  bottom:80%;
+  left:16%;
+  font-size: 2em;
+}
 
 #aboutMe p {
     font-size: 1.5em;
@@ -198,4 +212,12 @@ form {
 
 .input-field input[type=text]:focus {
     border-bottom: 1px solid #039be5;
+}
+
+.invite img{
+  margin-top: 1em;
+}
+
+#projects #logos .materialboxed{
+  display: inline;
 }
