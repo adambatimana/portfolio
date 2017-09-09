@@ -190,6 +190,32 @@ footer a,
   left:16%;
   font-size: 2em;
 }
+#projects #logos .materialboxed{
+  display: inline;
+}
+#photo #linkSection{
+  margin: 0;
+}
+#photo #linkSection p{
+  bottom: 10%;
+}
+#photo .section {
+  padding: 0;
+}
+#photo .parallax-container{
+  height: 500px;
+}
+#photo .parallax-container .gd{
+  bottom:80%;
+  left:16%;
+  font-size: 2em;
+}
+#photo #logos .materialboxed{
+  display: inline;
+}
+
+
+
 
 #aboutMe p {
     font-size: 1.5em;
@@ -218,6 +244,4 @@ form {
   margin-top: 1em;
 }
 
-#projects #logos .materialboxed{
-  display: inline;
-}
+
